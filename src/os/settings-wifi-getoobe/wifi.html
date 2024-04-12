@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOBE</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        .whiteboxtext {
+            text-align: right;
+            color: black;
+            font-family: sans-serif;
+            border-color: transparent;
+            border: transparent;
+            border-radius: 25px;
+            font-size: 20px;
+            width: 40;
+            height: 40;
+        }
+        .whiteboxtext:focus {
+            background-color: blue;
+        }
+        .whiteboxtext:active {
+            background-color: blue;
+        }
+        .nextbutton {
+            color: black;
+            font-family: sans-serif;
+            border-color: transparent;
+            border: transparent;
+            font-size: 20px;
+            width: 100px;
+            height: 40;
+            background-color: blue;
+            align-items: right;
+        }
+        .nextbutton:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="oobe.css">
+    <div class="whitebox">
+        <img src="Internet-icon.png" alt="">
+        <span><h1>Select WIFI</h1></span>
+        <span><button class="whiteboxtext">Ethernet: Connected</button> <button class="nextbutton" onclick="done()">Done</button></span>
+    </div>
+    <div class="script"><script src="oobe.js"></script></div>
+</body>
+</html>

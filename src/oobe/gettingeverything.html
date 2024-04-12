@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOBE</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .whiteboxtext {
+            text-align: right;
+            color: black;
+            font-family: sans-serif;
+            border-color: transparent;
+            border: transparent;
+            border-radius: 25px;
+            font-size: 20px;
+            width: 40;
+            height: 40;
+        }
+        .whiteboxtext:focus {
+            background-color: blue;
+        }
+        .whiteboxtext:active {
+            background-color: blue;
+        }
+        .nextbutton {
+            color: black;
+            font-family: sans-serif;
+            border-color: transparent;
+            border: transparent;
+            font-size: 20px;
+            width: 100px;
+            height: 40;
+            background-color: blue;
+            align-items: right;
+        }
+        .nextbutton:hover {
+            background-color: darkblue;
+        }
+        .oobe2 {
+            border: transparent;
+    border-color: transparent;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    background-color: transparent;
+    width: 50%;
+    height: 40%;
+    font-family: sans-serif;
+    color: white;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="../css/oobe.css">
+    <div class="oobe2">
+        <span><h1>Getting Everything Ready For You</h1></span>
+        <span><p>Do not turn off your pc.</p></span>
+        <span><h1>OwnerOS</h1></span>
+    </div>
+    <script>
+        setTimeout(function(){
+            window.location.href = '../os/login.html';
+        }, 20000);
+    </script>
+    <div class="script"><script src="../js/oobe.js"></script></div>
+</body>
+</html>

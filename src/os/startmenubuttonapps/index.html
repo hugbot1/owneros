@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS</title>
+    <style>
+        .startmenubuttonapps {
+            width: 100px;
+            height: 100px;
+            border-color: transparent;
+            border: transparent;
+            border-radius: 25px;
+            font-family: sans-serif;
+            background-color: white;  
+        }
+        body {
+            background-color: lightblue;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="startmenubuttonapps" onclick="javascript:window.open('./shutdown/restart/true/index.html', '_self')">Restart</button>
+    </div>
+    <div>
+        <button class="startmenubuttonapps" onclick="javascript:window.open('./shutdown/index.html', '_self')">Shutdown</button>
+    </div>
+    <div>
+        <button class="startmenubuttonapps" onclick="javascript:window.open('../login.html', '_self')">Log Off</button>
+    </div>
+    <div>
+        <button class="startmenubuttonapps" onclick="javascript:window.open('../desktop.html', '_self')">Back To OwnerOS</button>
+    </div>
+    <div>
+        <p>OwnerOS</p>
+    </div>
+    <script src="startmenu.js"></script>
+</body>
+</html>

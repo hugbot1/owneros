@@ -1,0 +1,6 @@
+mode:1 {
+    restart
+}
+mode:2 {
+    shutdown
+}

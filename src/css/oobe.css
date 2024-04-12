@@ -1,0 +1,14 @@
+.whitebox {
+    border: transparent;
+    border-color: transparent;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 40%;
+    font-family: sans-serif;
+}

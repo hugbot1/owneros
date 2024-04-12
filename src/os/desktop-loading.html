@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOBE</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        .whiteboxtext {
+            text-align: right;
+            color: black;
+            font-family: sans-serif;
+            border-color: transparent;
+            border: transparent;
+            border-radius: 25px;
+            font-size: 20px;
+            width: 40;
+            height: 40;
+        }
+        .whiteboxtext:focus {
+            background-color: blue;
+        }
+        .whiteboxtext:active {
+            background-color: blue;
+        }
+        .nextbutton {
+            color: black;
+            font-family: sans-serif;
+            border-color: transparent;
+            border: transparent;
+            font-size: 20px;
+            width: 100px;
+            height: 40;
+            background-color: blue;
+            align-items: right;
+        }
+        .nextbutton:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="../css/oobe.css">
+    <div class="whitebox">
+        <img src="../assets/Internet-icon.png" alt="">
+        <span><h1>Loging In...</h1><span>
+            <script>
+                setTimeout(function(){
+                    window.location.href = 'desktop.html';
+                }, 2000);
+            </script>
+        </span></span>
+    </div>
+    <script src="../js/os.js"></script>
+</body>
+</html>

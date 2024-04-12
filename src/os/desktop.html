@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        .mainfont {
+            color: black;
+            font-family: sans-serif;
+        }
+        .apps {
+            width: 100px;
+            height: 100px;
+            border-color: transparent;
+            border: transparent;
+            border-radius: 25px;
+            font-family: sans-serif;
+            background-color: transparent;
+        }
+        .apps:focus {
+            background-color: white;
+        }
+        .appsspacer {
+            width: 100px;
+            height: 100px;
+            border-color: transparent;
+            border: transparent;
+            border-radius: 25px;
+            font-family: sans-serif;
+            background-color: transparent;
+        }
+        .startmenubuttonapps {
+            width: 100px;
+            height: 100px;
+            border-color: transparent;
+            border: transparent;
+            border-radius: 25px;
+            font-family: sans-serif;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <span><h1 class="mainfont">OwnerOS</h1></span>
+    <span><button class="apps" ondblclick="javascript:window.open('desktop-internetbrowser.html', '_self')">Internet Browser</button></span>
+    <div>
+        <button class="apps" ondblclick="javascript:window.open('desktop-notepad.html', '_self')">Notepad</button>
+    </div>
+    <div>
+        <button class="apps" ondblclick="javascript:alert('Coming soon!')">Settings</button>
+    </div>
+    <div><button class="appsspacer"></button></div>
+    <div><button class="appsspacer"></button></div>
+    <div>
+        <button class="startmenubuttonapps" onclick="javascript:window.open('./startmenubuttonapps/index.html', '_self')">Start Menu</button>
+    </div>
+</body>
+</html>

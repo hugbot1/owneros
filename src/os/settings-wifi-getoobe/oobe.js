@@ -13,3 +13,6 @@ function setupdone() {
 function done() {
     window.open("../desktop-settings.html", "_self")
 }
+function done2() {
+    window.open("../desktop-quickmenu.html", "_self")
+}

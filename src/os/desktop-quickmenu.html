@@ -25,7 +25,6 @@
             background-color: white;
         }
         .appsspacer {
-            width: 100px;
             height: 100px;
             border-color: transparent;
             border: transparent;
@@ -42,16 +41,24 @@
             font-family: sans-serif;
             background-color: white;
         }
+        .xbutton {
+            width: 40;
+            height: 40;
+            border: transparent;
+            border-color: transparent;
+        }
     </style>
 </head>
 <body>
+    <div class="whitebox"><button class="xbutton" onclick="javascript:window.open('desktop.html', '_self')">X</button><h1>Quick Menu</h1>
+    <hr /><button class="startmenubuttonapps" onclick="javascript:window.open('./settings-wifi-getoobe/wifi2.html', '_self')">WIFI <button class="startmenubuttonapps" onclick="javascript:window.open('./settings-wifi-getoobe/comingsoon.html', '_self')">Bluetooth <button class="startmenubuttonapps" onclick="javascript:window.open('desktop-settings.html', '_self')">Settings <button class="startmenubuttonapps" onclick="javascript:window.open('./settings-about-getoobe/about2.html', '_self')">About</button></button></button></button></div>
     <span><h1 class="mainfont">OwnerOS</h1></span>
-    <span><button class="apps" ondblclick="javascript:window.open('desktop-internetbrowser.html', '_self')">Internet Browser</button></span>
+    <span><button class="apps">Internet Browser</button></span>
     <div>
-        <button class="apps" ondblclick="javascript:window.open('desktop-notepad.html', '_self')">Notepad</button>
+        <button class="apps">Notepad</button>
     </div>
     <div>
-        <button class="apps" ondblclick="javascript:window.open('desktop-settings.html', '_self')">Settings</button>
+        <button class="apps">Settings</button>
     </div>
     <div>
         <div><div><div><div></div></div></div></div>
@@ -59,8 +66,9 @@
     <div><button class="appsspacer"></button></div>
     <div><button class="appsspacer"></button></div>
     <div>
-        <button class="startmenubuttonapps" onclick="javascript:window.open('./startmenubuttonapps/index.html', '_self')">Start Menu</button>
-        <button class="startmenubuttonapps" onclick="javascript:window.open('desktop-quickmenu.html', '_self')">Quick Menu</button>
+        <button class="startmenubuttonapps">Start Menu</button>
+        <button class="startmenubuttonapps">Quick Menu</button>
     </div>
+    <link rel="stylesheet" href="../css/oobe.css">
 </body>
 </html>
